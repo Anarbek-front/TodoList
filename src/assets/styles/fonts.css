@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Inter18pt-Regular.eot');
+    src: url('../fonts/Inter18pt-Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('../fonts/Inter18pt-Regular.woff') format('woff'),
+        url('../fonts/Inter18pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Inter24pt-Medium.eot');
+    src: url('../fonts/Inter24pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter24pt-Medium.woff2') format('woff2'),
+        url('../fonts/Inter24pt-Medium.woff') format('woff'),
+        url('../fonts/Inter24pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Inter18pt-Medium.eot');
+    src: url('../fonts/Inter18pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('../fonts/Inter18pt-Medium.woff') format('woff'),
+        url('../fonts/Inter18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Inter28pt-Regular.eot');
+    src: url('../fonts/Inter28pt-Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Inter28pt-Regular.woff2') format('woff2'),
+        url('../fonts/Inter28pt-Regular.woff') format('woff'),
+        url('../fonts/Inter28pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../fonts/Inter24pt-Regular.eot');
+    src: url('../fonts/Inter24pt-Regular.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Inter24pt-Regular.woff2') format('woff2'),
+        url('../fonts/Inter24pt-Regular.woff') format('woff'),
+        url('../fonts/Inter24pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Inter28pt-SemiBold.eot');
+    src: url('../fonts/Inter28pt-SemiBold.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter28pt-SemiBold.woff') format('woff'),
+        url('../fonts/Inter28pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Inter28pt-ExtraLight.eot');
+    src: url('../fonts/Inter28pt-ExtraLight.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/Inter28pt-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Inter28pt-ExtraLight.woff') format('woff'),
+        url('../fonts/Inter28pt-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Regular.eot');
+    src: url('../fonts/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kanit-Regular.woff2') format('woff2'),
+        url('../fonts/Kanit-Regular.woff') format('woff'),
+        url('../fonts/Kanit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Medium.eot');
+    src: url('../fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kanit-Medium.woff2') format('woff2'),
+        url('../fonts/Kanit-Medium.woff') format('woff'),
+        url('../fonts/Kanit-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Inter28pt-Medium.eot');
+    src: url('../fonts/Inter28pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter28pt-Medium.woff2') format('woff2'),
+        url('../fonts/Inter28pt-Medium.woff') format('woff'),
+        url('../fonts/Inter28pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

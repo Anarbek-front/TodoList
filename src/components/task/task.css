@@ -1,0 +1,47 @@
+.task_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20.5px 0px 19.5px 0px;
+    border-bottom: 1px solid rgba(108, 99, 255, 0.5);
+}
+
+.task_cheked_and_title {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.task_title {
+    font-family: 'Kanit';
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.edit_delete_icon {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.edit_delete_icon > svg {
+    cursor: pointer;
+}
+
+.edit:hover {
+    path {
+        stroke: #6c63ff;
+    }
+}
+
+.delete:hover {
+    path {
+        stroke: #ff0000;
+    }
+}

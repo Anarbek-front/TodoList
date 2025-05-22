@@ -1,0 +1,53 @@
+.input_container {
+    position: relative;
+
+}
+
+.reusable_input {
+    position: relative;
+    width: 100%;
+    max-width: 595px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    transition: 0.3s ease-in-out;
+}
+
+.reusable_input:focus-within {
+    box-shadow: 0 0 0 2px var(--input-focus-border-color);
+}
+
+.input {
+    color: #c3c1e6;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.input::placeholder {
+    color: var(--placeholder-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.search_icon {
+    cursor: pointer;
+    path {
+        fill: var(--search-icon);
+    }
+}
+
+.error_text {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    color: #f00;
+}

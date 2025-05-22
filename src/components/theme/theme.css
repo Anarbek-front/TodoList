@@ -1,0 +1,15 @@
+.icon_mode_container {
+    min-width: 38px;
+    height: 38px;
+    transition: all 0.3s ease-in-out;
+}
+
+.theme_input {
+    display: none;
+}
+
+.icon_mode_container svg:hover {
+    rect {
+        fill: #5850dd;
+    }
+}

@@ -1,0 +1,16 @@
+header {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+@media (max-width: 500px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        align-items: stretch;
+    }
+}

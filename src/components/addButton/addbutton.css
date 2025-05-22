@@ -1,0 +1,11 @@
+.add_todo {
+    position: absolute;
+    bottom: 32px;
+    right: 333px;
+}
+
+.add_todo > svg:hover {
+    circle {
+        fill: #534cc2;
+    }
+}

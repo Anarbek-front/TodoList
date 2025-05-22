@@ -1,0 +1,9 @@
+.reusable_button {
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 22px 10px 22px;
+}

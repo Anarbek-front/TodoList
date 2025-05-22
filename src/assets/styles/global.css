@@ -1,0 +1,43 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+:root {
+    --background-color: #f7f7f7;
+    --text-color: #252525;
+    --border-color: #6c63ff;
+    --search-icon: #6c63ff;
+    --placeholder-color: #c3c1e6;
+    --input-focus-border-color: #9e9af3;
+    --font-family: 'Inter 28pt', 'Kanit', sans-serif;
+}
+
+[theme='dark'] {
+    --background-color: #252525;
+    --text-color: #f7f7f7;
+    --border-color: #f7f7f7;
+    --search-icon: #f7f7f7;
+    --placeholder-color: #666666;
+    --input-focus-border-color: #808081;
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+
+.container {
+    /* position: relative; */
+    max-width: 46.875rem;
+    min-height: 100vh;
+    padding: 0 0.9rem;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
