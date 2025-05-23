@@ -54,7 +54,7 @@ export const List = () => {
         <>
             <Modal isOpen={deleteModal} onClose={handleDeleteIcon}>
                 <div className="delete_modal_container">
-                    <p className="delete_modal_title">Delete</p>
+                    <p className="modal_title">Delete</p>
                     <div className="delete_modal_buttons">
                         <Button
                             className={'cancel_button'}
@@ -70,8 +70,8 @@ export const List = () => {
                 </div>
             </Modal>
             <Modal isOpen={editModal} onClose={handleEditIcon}>
-                <div className="new_note_modal_container">
-                    <p className="new_note">Edit Todo</p>
+                <div className="edit_modal_container">
+                    <p className="modal_title">Edit Todo</p>
                     <Input
                         onChange={(e) => setChangeableTodo(e.target.value)}
                         onSubmit={handleEditTodo}
@@ -79,7 +79,7 @@ export const List = () => {
                         value={changeableTodo}
                         errorText={errorInputText}
                     />
-                    <div className="modal_buttons">
+                    <div className="edit_modal_buttons">
                         <Button
                             content="cancel"
                             onClick={cancelEditModal}

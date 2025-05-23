@@ -1,9 +1,10 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { setFilterTodo, setSearchTodo } from '../../features/todos/todosSlice'
 import Select from '../select/Select'
 import { Input } from '../Input/Input'
 import { Theme } from '../theme/Theme'
+import { errorText } from '../../App'
 import './header.css'
 
 export const options = ['All', 'Complete', 'Incomplete']
@@ -11,6 +12,7 @@ export const options = ['All', 'Complete', 'Incomplete']
 const Header = () => {
     const [selectedOption, setSelectedOption] = useState('All')
     const [searchTodoText, setSearchTodoText] = useState('')
+    const [searchError, setSearchError] = useState('')
     const dispatch = useDispatch()
 
     const handleSelect = (value) => {
@@ -19,10 +21,16 @@ const Header = () => {
     }
 
     const searchTodo = () => {
+        if (searchTodoText.trim() === '') return setSearchError(errorText)
         dispatch(setSearchTodo(searchTodoText))
         dispatch(setFilterTodo(''))
         setSearchTodoText('')
+        setSearchError('')
     }
+
+    useEffect(() => {
+        setSearchError('')
+    }, [searchTodoText])
 
     return (
         <header>
@@ -32,6 +40,7 @@ const Header = () => {
                 onSubmit={searchTodo}
                 type="search"
                 placeholder="Search note..."
+                errorText={searchError}
             />
             <Select
                 options={options}

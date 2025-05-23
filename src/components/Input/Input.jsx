@@ -20,7 +20,7 @@ export const Input = ({
 
     const clickIconSearch = () => {
         const valueSearch = inputRef.current?.value
-        if (!valueSearch) return inputRef.current.focus()
+        if (!valueSearch) inputRef.current.focus()
         onSubmit()
     }
 

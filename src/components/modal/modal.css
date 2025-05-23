@@ -37,13 +37,17 @@
 
 @media (max-width: 768px) {
     .modal_container {
-        margin: 0 70px;
+        margin: 0 auto;
+        max-width: 350px;
+        max-height: 230px;
     }
 }
 
 @media (max-width: 480px) {
     .modal_container {
-        margin: 0 30px;
+        margin: 0 auto;
+        max-width: 300px;
+        max-height: 200px;
     }
 }
 
